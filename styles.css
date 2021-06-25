@@ -1,46 +1,44 @@
 h1 {
-    color: white
+    color: #262626
 }
 
 h2 {
-    color:maroon
+    color: #ff8400
 }
 p1 {
-    color: white
+    color: #262626
 }
 
 p2 {
-    color: maroon
+    color: #ff8400
 }
 
 .wrapper {
     text-align: center;
-    display: inline-block;
 }
 
 .button {
     border: none;
-    color: white;
+    color: #262626;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-    background-color: maroon;
+    background-color: #ff8400;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     transition-duration: 0.4s;
-    border: white;
+    border: #262626;
     border-style:solid;
-    cursor: cursor;
+    cursor:pointer;
 }
 
 .button:hover {
-    background-color: white;
-    color:maroon
+    background-color: #262626;
+    color:#ff8400;
 }
 
 .section {
-    background-color: maroon;
-    background-image: image();
+    background-color: #ff8400;
 }
