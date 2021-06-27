@@ -1,20 +1,39 @@
 h1 {
-    color: #262626
+    color: #262626;
+    font-size: 60px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 h2 {
-    color: #ff8400
+    color: #ff8400;
+    font-size: 40px;
+    font-family: Impact;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 p1 {
-    color: #262626
+    color: #262626;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 p2 {
-    color: #ff8400
+    color: #ff8400;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 .wrapper {
-    text-align: center;
+    margin-left: 10px;
+    text-align: left;
 }
 
 .button {
@@ -39,6 +58,14 @@ p2 {
     color:#ff8400;
 }
 
-.section {
+.button-section {
     background-color: #ff8400;
+    margin-bottom: 0px;
+}
+
+.line {
+    height:30px; 
+    background-color: #00a2ff;
+    border-color: #00a2ff;
+    margin-top: 0px;
 }
