@@ -25,6 +25,16 @@ h2 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+h3 {
+    color: var(--primary-color);
+    font-size: 30px;
+    font-family: var(--code-font);
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
 p1 {
     color: var(--dark-color);
     font-family: var(--code-font);
@@ -33,6 +43,14 @@ p1 {
 }
 
 p2 {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-family: var(--code-font);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p3, li, ul {
     color: var(--primary-color);
     font-size: 20px;
     font-family: var(--code-font);
@@ -70,7 +88,8 @@ p2 {
 }
 
 .button-section {
-    margin-bottom: 0px;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .line {
@@ -130,4 +149,3 @@ p2 {
     margin-bottom: 30px;
     width: 80%;
 }
-
