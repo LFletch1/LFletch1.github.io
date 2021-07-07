@@ -59,7 +59,6 @@ p3, li, ul {
 }
 
 .wrapper {
-    margin-left: 10px;
     text-align: center;
 }
 
@@ -113,6 +112,7 @@ p3, li, ul {
 .container {
     margin-left: 20%;
     margin-right: 20%;
+    display: flex;
 }
 
 .inline-block {
@@ -120,6 +120,7 @@ p3, li, ul {
 }
 
 .block-section {
+    display:inline-block;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 80px;
@@ -148,4 +149,48 @@ p3, li, ul {
     margin-top: 80px;
     margin-bottom: 30px;
     width: 80%;
+}
+
+.bi-panel-text {
+    float: left;
+    width: 64%;
+}
+
+.bi-panel-pic {
+    float: left;
+    text-align: center;
+    width: 34%;
+    margin-left: 2%;
+}
+
+@media only screen and (max-width: 1200px) {    
+    .bi-panel-text {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .bi-panel-pic {
+        text-align: center;
+        margin-top: 30px;
+        margin-right: 10%;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .container {
+        display:inline;
+    }
+    .socials-section {    
+        margin-right: 10%;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .line {
+        width: 90%;
+    }
+    .block-section {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
