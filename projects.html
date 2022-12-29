@@ -18,46 +18,93 @@
         <h1>Projects</h1>
         <hr class="line title-line">
     </div>
-    <div class="block-section covid-scraper">
-        <h2>LLNL Computing Scholar Project</h2>
-        <p2>Soon.
+
+    <div class="block-section escort-project">
+        <h2>Visibility-Based Robot Escort Algorithm</h2>
+        <p2>Abstract: In this work we present a solution to the visibility-
+            based escort problem, a problem closely related to the well-
+            researched pursuit-evasion problem. This novel problem entails
+            a single escort agent tasked with protecting and escorting one or
+            multiple VIP agents from line-of-sight threats in a 2-dimensional
+            environment. The algorithm takes as inputs a simply-connected
+            polygonal environment, the starting location of the escort, and a
+            goal location where the VIP agents should be safely moved to. The
+            solution comes in the form of a path that is not a sequence of exact
+            locations but rather a sequence of regions in which a VIP agent
+            can safely exist. We search for a solution using a breadth first
+            search across an information graph constructed from the environment.
+            The proposed method is capable of calculating non-trivial escort
+            agent strategies from various starting configurations in diverse
+            environments. <a href="files/CSCE_643_Final_Paper.pdf">Full Paper</a>, <a href="https://youtu.be/Si-7cLJj0fQ">Video Demo</a>
         </p2>
     </div>
-    <div class="block-section covid-scraper">
-        <h2>LLNL DSSI Project</h2>
+
+    <div class="block-section MIS-project">
+        <h2>Interceptor Missile Guidance through Deep Reinforcement Learning</h2>
+        <p2>Abstract: The following project details the application of reinforcement learning to develop a policy for interceptor missile guidance.
+            First the motivation and scope of the project are outlined. Then, the Markov Decision Process (MDP) is formulated and the related work
+            is discussed. The problem is formalized as an agent missile tracking and intercepting a target missile before it has the chance to impact
+            the ground. The implementation utilized an agent relative observation space and an advantage actor-critic algorithm. The reward
+            function was uniquely developed and showed the convergence to desirable policies even in the presence of disturbances to the target
+            missiles heading. Further, in some cases the agent could learn to account for states that resulted in a higher future probability of
+            interception due to the approach characteristics. <a href="files/Deep_RL_Final_Project.pdf">Full Paper</a>, <a href="https://youtu.be/EGLHpRJ0rWA">Project Video</a>
+        </p2>
+    </div>
+
+    <div class="block-section MIS-project">
+        <h2>Comparing Performance of Parallel Maximal Independent Set Algorithms</h2>
+        <p2> Abstract: Many parallel algorithms exist for finding a maximal independent set (MIS) of
+            nodes in a graph. Despite the development of many parallel MIS algorithms, the
+            comparison of these algorithms has not been well investigated. The concept of
+            finding a MIS implies finding a large set of independent nodes is ideal. Given this
+            notion of larger MISs being better, it is beneficial to know which parallel algorithm
+            provides the largest MISs. Many other graph algorithms utilize MISs and could
+            benefit from obtaining larger sets of independent nodes. This work investigates
+            MIS sizes returned by parallel algorithms on a variety of graphs. Additionally, the
+            novel parallel algorithm, Degree One, is introduced and shows an increase in MIS
+            size ranging from 2.7% to 8% when compared to the next best MIS algorithm. The
+            algorithm contains a hyperparameter which allows for a trade off between MIS
+            size and the amount of parallel rounds needed. <a href="files/Adv__Graphs_Final_Project-3.pdf">Full Paper</a>
+        </p2>
+    </div>
+
+    <div class="block-section dssi-project">
+        <h2>LLNL Projects</h2>
+        <h3>Computing Scholar Project</h3>
+        <p2>
+            Worked with Dr. Roger Pearce and Dr. Trevor Steil on developing new graph centralities based on random spanning trees. The main 
+            motivation was to find a centrality which could scale to large scale networks. Here is a short three minute 
+            <a href="https://www.youtube.com/watch?v=8fQqcb5bwaE">video</a> from my Summer Slam presentation.
+        </p2>
+        <h3 style="padding-top: 20pt;">DSSI Project</h3>
         <p2>My internship at Lawrence Livermore National Laboratory included being apart of the <a href="https://data-science.llnl.gov/dssi/class/2022">
             Data Science Summer Institute 2022 Cohort</a>. Myself and three other interns were tasked with applying 
-            machine learning to create models to predict whether a ligand protein would bind with Covid-19 or not. We developed two
-            prediction models. One trained on a tabular dataset comprised of characteristics of the protien. Here we applied a variety of
+            machine learning to create models capable of predicting ligand protein bonding with Covid-19. We developed two
+            prediction models. One trained on a tabular dataset comprised of characteristics of the protein. Here we applied a variety of
             classifcation algorithms such as logistic regression, SVM, k-NN, and random forests. The second model was developed by taking
             the spatial data of the protein and translating it to a graph. The atoms represented the nodes and the edges represented the 
             bonds. This enabled us to train a graph neural network (GNN) to create the prediction model. We were able to achieve an 82%
             accuracy on the test dataset. The project was implmented using scikit-learn, Pytorch, and various other python libraries.
         </p2>
     </div>
-    <div class="block-section covid-scraper">
-        <h2>Walks - Senior Capstone Project</h2>
+    <div class="block-section senior-project">
+        <h2>Walks: Senior Capstone Project</h2>
         <p2>Walks is the name of the web application my fellow group members and I developed for our senior capstone project. 
             The app was made to give users the ability to give other users access to their whereabouts when going on hikes 
             or other outdoor adventures. Walks also allowed users to plan trips and invite other users to these trips.
             We not only utilized phones as GPS devices for the app, but we also integrated physical GPS devices produced
-            by <a href="geoforce.com">geoforce</a> with our application. The web app was developed using React.js and Django
+            by <a href="https://geoforce.com">geoforce</a> with our application. The web app was developed using React.js and Django
             along with a large amount of 3rd party APIs. The mobile application was developed through Swift, and the 
             whole application was deployed on an AWS EC2 server. We implemented an agile like development cycle throughout the
             project which included two week sprints and weekly meetings to discuss the project.
-        </p2>
-    </div>
-    <div class="block-section covid-scraper">
-        <h2>WTAMU Covid-19 Data Web Scraper</h2>
-        <p2>A small program to scrape Covid-19 infection data automatically from the WT website and store it
-            into a CSV file. The data is then graphed on a bar chart. At the time the WT website would only show
-            Covid-19 infection data for the previous two weeks. 
+            <a href="files/Walks Manual SPRING.pdf">Full Software Manual</a>
         </p2>
     </div>
     <div class="block-section exercise-program">
         <h2>Exercise Evaluations Program</h2>
         <p2>This project was the result of my time as a Kilgore Undergraduate Researcher.
-            I utilized OpenPose, a body tracking software which can create a body structure
+            I utilized <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose">OpenPose</a>, 
+            a pose estimation library which can extract the pose of a human body
             from a video or image. The points generated by OpenPose were then used to analyze
             an individuals movements throughout a workout. The squat was chosen as the exercise of
             focus due to its ease of evaluation from a single angle. Additionally, I consulted with a biomechanics
@@ -69,7 +116,7 @@
             however, I did learn many valuable skills and lessons throughout the process.
         </p2>
     </div>
-    <div class="block-section notable-labs">
+    <!-- <div class="block-section notable-labs">
         <h2>Notable Course Assignments</h2>
         <ul>
             <li><p3>Computer Architecture: Attack Lab</p3></li>
@@ -81,7 +128,7 @@
             <li><p3>Numerical Analysis: Comparison of Bisection and Secant Method in practical applications</p3></li>
             <li><p3>Android Development: Use of content provider to create phone book</p3></li>
         </ul>
-    </div>
+    </div> -->
     <hr class="line line-logos">
     <div class="socials-section">
         <div class="social-button"><a href="https://www.instagram.com/lance_fletch/"><img class="logo instagram" src="instagram-logo.png"></a></div>
